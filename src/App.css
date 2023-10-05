@@ -288,11 +288,9 @@ body {
   line-height: 90px;
 }
 .section5__text1 {
-  width: 386px;
-  opacity: 0.4;
-  color: var(--White);
+  width: 386px; 
+  color: #cbcbcb;
   font-size: 18px;
- 
   font-weight: 400;
   line-height: 32px;
 }
