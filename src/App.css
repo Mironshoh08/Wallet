@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins";
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -42,17 +42,7 @@ body {
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
+}  
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -76,8 +66,7 @@ body {
     inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
-.b-example-vr {
-  flex-shrink: 0;
+.b-example-vr { 
   width: 1.5rem;
   height: 100vh;
 }
@@ -106,16 +95,14 @@ body {
 }
 .navbar__link {
   color: var(--White);
-  font-size: 24px;
-  font-style: normal;
+  font-size: 24px; 
   font-weight: 600;
   line-height: 24px;
 }
 .Sign__up {
   width: 68px;
   color: var(--White);
-  font-size: 18px;
-  font-style: normal;
+  font-size: 18px; 
   font-weight: 400;
   line-height: 32px;
   text-align: center;
@@ -129,24 +116,20 @@ body {
   justify-content: center;
   text-decoration: none;
   align-items: center;
-  font-size: 18px;
-  font-style: normal;
+  font-size: 18px; 
   font-weight: 400;
   line-height: 32px;
   text-align: center;
   width: 175px;
   height: 50px;
   border-radius: 15px;
-  background: #bfaff2;
-  flex-shrink: 0;
+  background: #bfaff2; 
 }
 .Content__text {
   width: 465px;
-  height: 166px;
-  flex-shrink: 0;
+  height: 166px; 
   color: var(--White);
-  font-size: 60px;
-  font-style: normal;
+  font-size: 60px; 
   font-weight: 600;
   line-height: 90px;
 }
@@ -155,15 +138,13 @@ body {
   opacity: 0.4;
   color: var(--White);
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
+   font-weight: 400;
   line-height: 32px;
 }
 .Content__link {
   color: #333;
   font-size: 18px;
-  font-style: normal;
-  display: flex;
+   display: flex;
   align-items: center;
   font-weight: 400;
   width: 175px;
@@ -186,7 +167,7 @@ body {
   height: 100%;
   border-radius: 25px;
   mix-blend-mode: lighten;
-  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+ 
 }
 .Content__column2 {
   display: flex;
@@ -230,8 +211,7 @@ body {
 .section3__tittle {
   width: 311px;
   color: var(--White);
-  font-size: 18px;
-  font-style: normal;
+  font-size: 18px; 
   font-weight: 600;
   line-height: 32px;
   text-align: center;
@@ -243,7 +223,7 @@ body {
   opacity: 0.4;
   color: var(--White);
   font-size: 18px;
-  font-style: normal;
+ 
   font-weight: 400;
   line-height: 32px;
   text-align: center;
@@ -264,16 +244,14 @@ body {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
-  /* padding: 0 0 0 150px; */
+  row-gap: 20px; 
   border-radius: 20px;
   background: #bfaff2;
 }
 .section4__text {
   width: 876px;
   color: #2b2b2b;
-  font-size: 28px;
-  font-style: normal;
+  font-size: 28px; 
   font-weight: 600;
   line-height: 40px;
 }
@@ -293,8 +271,7 @@ body {
 .section4__text1 {
   opacity: 0.4;
   color: #2b2b2b;
-  font-size: 18px;
-  font-style: normal;
+  font-size: 18px; 
   margin-bottom: 0 !important;
   font-weight: 400;
   line-height: 32px;
@@ -309,23 +286,23 @@ body {
   margin-bottom: 0;
   color: var(--White);
   font-size: 60px;
-  font-style: normal;
+ 
   font-weight: 600;
   line-height: 90px;
 }
 .section5__text1 {
   width: 386px;
   opacity: 0.4;
-  color: var(--White, #fff);
+  color: var(--White);
   font-size: 18px;
-  font-style: normal;
+ 
   font-weight: 400;
   line-height: 32px;
 }
 .section5__link {
   color: #333;
   font-size: 18px;
-  font-style: normal;
+ 
   font-weight: 400;
   line-height: 32px;
   text-decoration: none;
@@ -336,8 +313,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 15px;
-  background: #f8d57e;
-  flex-shrink: 0;
+  background: #f8d57e; 
 }
 .section5__column {
   display: flex;
@@ -354,7 +330,7 @@ body {
 .footer__link {
   color: var(--White);
   font-size: 24px;
-  font-style: normal;
+ 
   font-weight: 600;
   line-height: 24px;
 }
@@ -366,7 +342,7 @@ body {
 .footer__link2 {
   color: var(--White);
   font-size: 18px;
-  font-style: normal;
+ 
   text-decoration: none;
   font-weight: 600;
   line-height: 32px;
@@ -374,7 +350,7 @@ body {
 .footer__text {
   color: var(--White, #fff);
   font-size: 18px;
-  font-style: normal;
+ 
   font-weight: 400;
   line-height: 32px;
 }
@@ -382,7 +358,7 @@ body {
   opacity: 0.4;
   color: var(--White);
   font-size: 18px;
-  font-style: normal;
+ 
   font-weight: 400;
   line-height: 32px;
   display: flex;
@@ -408,9 +384,7 @@ body {
   width: 175px;
   height: 50px;
   border-radius: 15px;
-  background: #bfaff2;
-  flex-shrink: 0;
-  font-style: normal;
+  background: #bfaff2; 
   font-weight: 400;
   line-height: 32px;
   border: none !important;
