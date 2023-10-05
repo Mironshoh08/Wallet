@@ -218,9 +218,8 @@ body {
 }
 
 .section3__text {
-  width: 255px;
-  opacity: 0.4;
-  color: var(--White);
+  width: 255px; 
+  color: #a9a9a9 !important;
   font-size: 18px;
  
   font-weight: 400;
