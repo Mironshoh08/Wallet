@@ -1,7 +1,7 @@
 /* import logo from "./logo.svg"; */
 import "../App.css";
 import "../media/media.css";
-import Gif from "../images/1000x892.gif";
+// import Gif from "../images/1000x892.gif";
 
 function Content() {
   return (
@@ -19,12 +19,12 @@ function Content() {
             </a>
           </div>
           <div className="col-xl-6  col-lg-6 col-md-12      Content__column2">
-            <img
-              loading="lazy"
-              className="content__gif"
-              alt="Gif"
-              src={Gif}
-            ></img>
+            // <img
+            //   loading="lazy"
+            //   className="content__gif"
+            //   alt="Gif"
+            //   src={Gif}
+            // ></img>
           </div>
         </div>
       </div>
